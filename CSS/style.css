@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 60px auto;
+    border: 3px solid black;
+    display: none;
+}
+
+.square {
+    float: left;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
